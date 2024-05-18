@@ -11,4 +11,4 @@ db = firestore.Client(credentials=creds, project="bikes-94735")
 
 dbPRODUCTS = db.collection('bikes')
 
-st.header('Nuevo registro')
+st.header('Nuevo registrooooo')
