@@ -9,6 +9,6 @@ creds = service_account.Credentials.from_service_account_info(key_dict)
 db = firestore.Client(credentials=creds, project="bikes-94735")
 
 
-dbPRODUCTS = db.collection('bikes')
+dbBIKES = db.collection('bikes')
 
-st.header('Nuevo registrooooo')
+st.header('Nuevo registroooooS')
